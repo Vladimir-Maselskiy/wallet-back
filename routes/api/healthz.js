@@ -4,9 +4,6 @@ const healthz = require("../../controllers/healthz/healthz");
 
 const router = express.Router();
 
-// user register route
-
-// route user get session info by token
-router.get("/healthz", healthz);
+router.get("/", healthz);
 
 module.exports = router;
